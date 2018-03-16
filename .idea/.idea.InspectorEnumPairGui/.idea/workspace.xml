@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef26dbc-b3b8-485a-9e0b-c10af8975760" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Example.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Example.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fruit.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Fruit.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FruitBasket.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FruitBasket.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FruitColorPair.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FruitColorPair.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InspectorEnumPair.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InspectorEnumPair.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InspectorEnumPairGui.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InspectorEnumPairGui.cs.meta" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Editor/FruitBasketEditor.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/SkywardRay/InspectorEnumPairGui.cs" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InspectorEnumPairGui/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.InspectorEnumPairGui/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.InspectorEnumPairGui/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.InspectorEnumPairGui/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Example/FruitBasket.cs" afterPath="$PROJECT_DIR$/Assets/Example/FruitBasket.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SkywardRay/InspectorEnumPairGui.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/SkywardRay/InspectorEnumPairGui.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Example/Fruit.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding>
                 <marker date="1521111027719" expanded="true" signature="23:235" ph="{...}" />
                 <marker date="1521111027719" expanded="true" signature="129:233" ph="{...}" />
@@ -38,13 +34,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InspectorEnumPair.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InspectorEnumPair.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Plugins/SkywardRay/InspectorEnumPair.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding>
-                <marker date="1521104559528" expanded="false" signature="6:66" ph="..." />
+                <marker date="1521104559528" expanded="true" signature="6:66" ph="..." />
                 <marker date="1521104559528" expanded="true" signature="89:2232" ph="{...}" />
                 <marker date="1521104559528" expanded="true" signature="212:1740" ph="{...}" />
                 <marker date="1521104559528" expanded="true" signature="223:781" ph="static" />
@@ -62,6 +58,87 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="FruitBasket.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Example/FruitBasket.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <folding>
+                <marker date="1521215531687" expanded="true" signature="41:1606" ph="{...}" />
+                <marker date="1521215531687" expanded="true" signature="88:1604" ph="{...}" />
+                <marker date="1521215531687" expanded="true" signature="99:253" ph="/* We do want Unity to serialize our array but we don't want it shown in the inspector ... */" />
+                <marker date="1521215531687" expanded="true" signature="373:1597" ph="{...}" />
+                <marker date="1521215531687" expanded="true" signature="687:1406" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FruitBasketEditor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Editor/FruitBasketEditor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+              <folding>
+                <marker date="1521214914286" expanded="true" signature="6:55" ph="..." />
+                <marker date="1521214914286" expanded="true" signature="133:919" ph="{...}" />
+                <marker date="1521214914286" expanded="true" signature="220:648" ph="{...}" />
+                <marker date="1521214914286" expanded="true" signature="351:541" ph="/* This object will draw the inspector for our field and handle any changes to the Enum declaration ... */" />
+                <marker date="1521214914286" expanded="true" signature="690:916" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InspectorEnumPairGui.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Plugins/Editor/SkywardRay/InspectorEnumPairGui.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1521214948003" expanded="false" signature="6:99" ph="..." />
+                <marker date="1521214948003" expanded="true" signature="122:13263" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="239:13261" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="524:740" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="775:2319" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="1542:2309" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="1591:1712" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="1935:2295" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="1957:2079" ph="/* This element has an invalid name so it can be reused ... */" />
+                <marker date="1521214948003" expanded="true" signature="2379:2801" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="2553:2699" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="2863:3104" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="2898:2942" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="3152:4021" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="3727:4011" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="3745:3911" ph="/* Move each missing value to the end of the serialized array ... */" />
+                <marker date="1521214948003" expanded="true" signature="4061:7098" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="4198:4942" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="4374:4569" ph="/* One or more enum values were added to the TEnum type ... */" />
+                <marker date="1521214948003" expanded="true" signature="4727:4880" ph="/* Clear the values of the new elements ... */" />
+                <marker date="1521214948003" expanded="true" signature="4990:5373" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="5373:5498" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="6000:6189" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="6357:7088" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="6500:6985" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="7154:8202" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="7338:8192" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="7462:8178" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="7484:7979" ph="/* The enum does not contain a value for this name, so the value in this element ... */" />
+                <marker date="1521214948003" expanded="true" signature="8260:8762" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="8325:8752" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="8510:8738" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="8532:8656" ph="/* Assign the default string value so we know that this element ... */" />
+                <marker date="1521214948003" expanded="true" signature="8821:9040" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="8886:9030" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="9108:13254" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="9151:9287" ph="{...}" />
+                <marker date="1521214948003" expanded="true" signature="9714:13244" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -73,7 +150,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/FruitBasketEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Editor/SkywardRay/InspectorEnumPairGui.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/SkywardRay/InspectorEnumPair.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Example/FruitBasket.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Example/Fruit.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -84,6 +164,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Fruit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InspectorEnumPairGui.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FruitBasket.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/SkywardRay/InspectorEnumPairGui.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/FruitBasketEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Plugins/Editor/SkywardRay/InspectorEnumPairGui.cs" />
+        <option value="$PROJECT_DIR$/Assets/Example/FruitBasket.cs" />
       </list>
     </option>
   </component>
@@ -99,7 +183,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <flattenPackages />
@@ -120,47 +206,87 @@
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="InspectorEnumPairGui (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="InspectorEnumPairGui (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="InspectorEnumPairGui (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="InspectorEnumPairGui (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="InspectorEnumPairGui (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="InspectorEnumPairGui (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="InspectorEnumPairGui (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="InspectorEnumPairGui (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Example" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="InspectorEnumPairGui (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="InspectorEnumPairGui (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="InspectorEnumPairGui (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="InspectorEnumPairGui (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="InspectorEnumPairGui (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="InspectorEnumPairGui (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Editor" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="InspectorEnumPairGui (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Editor" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="SkywardRay" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="InspectorEnumPairGui (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="InspectorEnumPairGui (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="InspectorEnumPairGui (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="InspectorEnumPairGui (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="InspectorEnumPairGui (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="InspectorEnumPairGui (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="InspectorEnumPairGui (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
@@ -210,11 +336,12 @@
       <updated>1521038994560</updated>
       <workItem from="1521038995765" duration="2840000" />
       <workItem from="1521098187546" duration="12330000" />
+      <workItem from="1521214327519" duration="1471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15170000" />
+    <option name="totallyTimeSpent" value="16641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -233,22 +360,22 @@
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21458334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -263,62 +390,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InspectorEnumPairGui.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InspectorEnumPair.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InspectorEnumPair.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="68" column="73" lean-forward="false" selection-start-line="68" selection-start-column="73" selection-end-line="68" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Fruit.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FruitColorPair.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FruitBasket.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InspectorEnumPairGui.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="305" column="20" lean-forward="true" selection-start-line="305" selection-start-column="20" selection-end-line="305" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Example/Fruit.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -335,7 +406,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1521104559528" expanded="false" signature="6:66" ph="..." />
+            <marker date="1521104559528" expanded="true" signature="6:66" ph="..." />
             <marker date="1521104559528" expanded="true" signature="89:2232" ph="{...}" />
             <marker date="1521104559528" expanded="true" signature="212:1740" ph="{...}" />
             <marker date="1521104559528" expanded="true" signature="223:781" ph="static" />
@@ -348,6 +419,129 @@
             <marker date="1521104559528" expanded="true" signature="1412:1733" ph="{...}" />
             <marker date="1521104559528" expanded="true" signature="1796:2230" ph="{...}" />
             <marker date="1521104559528" expanded="true" signature="2044:2223" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InspectorEnumPairGui.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InspectorEnumPair.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InspectorEnumPair.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Fruit.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FruitColorPair.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FruitBasket.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InspectorEnumPairGui.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Example/Fruit.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <marker date="1521111027719" expanded="true" signature="23:235" ph="{...}" />
+            <marker date="1521111027719" expanded="true" signature="129:233" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/SkywardRay/InspectorEnumPair.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <marker date="1521104559528" expanded="true" signature="6:66" ph="..." />
+            <marker date="1521104559528" expanded="true" signature="89:2232" ph="{...}" />
+            <marker date="1521104559528" expanded="true" signature="212:1740" ph="{...}" />
+            <marker date="1521104559528" expanded="true" signature="223:781" ph="static" />
+            <marker date="1521104559528" expanded="true" signature="326:761" ph="{...}" />
+            <marker date="1521104559528" expanded="true" signature="460:592" ph="{...}" />
+            <marker date="1521104559528" expanded="true" signature="862:1036" ph="{...}" />
+            <marker date="1521104559528" expanded="true" signature="880:1026" ph="{...}" />
+            <marker date="1521104559528" expanded="true" signature="931:982" ph="{...}" />
+            <marker date="1521104559528" expanded="true" signature="1280:1377" ph="{...}" />
+            <marker date="1521104559528" expanded="true" signature="1412:1733" ph="{...}" />
+            <marker date="1521104559528" expanded="true" signature="1796:2230" ph="{...}" />
+            <marker date="1521104559528" expanded="true" signature="2044:2223" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/SkywardRay/InspectorEnumPairGui.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Editor/SkywardRay/InspectorEnumPairGui.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1521214948003" expanded="false" signature="6:99" ph="..." />
+            <marker date="1521214948003" expanded="true" signature="122:13263" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="239:13261" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="524:740" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="775:2319" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="1542:2309" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="1591:1712" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="1935:2295" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="1957:2079" ph="/* This element has an invalid name so it can be reused ... */" />
+            <marker date="1521214948003" expanded="true" signature="2379:2801" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="2553:2699" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="2863:3104" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="2898:2942" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="3152:4021" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="3727:4011" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="3745:3911" ph="/* Move each missing value to the end of the serialized array ... */" />
+            <marker date="1521214948003" expanded="true" signature="4061:7098" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="4198:4942" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="4374:4569" ph="/* One or more enum values were added to the TEnum type ... */" />
+            <marker date="1521214948003" expanded="true" signature="4727:4880" ph="/* Clear the values of the new elements ... */" />
+            <marker date="1521214948003" expanded="true" signature="4990:5373" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="5373:5498" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="6000:6189" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="6357:7088" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="6500:6985" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="7154:8202" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="7338:8192" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="7462:8178" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="7484:7979" ph="/* The enum does not contain a value for this name, so the value in this element ... */" />
+            <marker date="1521214948003" expanded="true" signature="8260:8762" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="8325:8752" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="8510:8738" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="8532:8656" ph="/* Assign the default string value so we know that this element ... */" />
+            <marker date="1521214948003" expanded="true" signature="8821:9040" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="8886:9030" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="9108:13254" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="9151:9287" ph="{...}" />
+            <marker date="1521214948003" expanded="true" signature="9714:13244" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/FruitBasketEditor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
+          <folding>
+            <marker date="1521214914286" expanded="true" signature="6:55" ph="..." />
+            <marker date="1521214914286" expanded="true" signature="133:919" ph="{...}" />
+            <marker date="1521214914286" expanded="true" signature="220:648" ph="{...}" />
+            <marker date="1521214914286" expanded="true" signature="351:541" ph="/* This object will draw the inspector for our field and handle any changes to the Enum declaration ... */" />
+            <marker date="1521214914286" expanded="true" signature="690:916" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Example/FruitBasket.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <marker date="1521215531687" expanded="true" signature="41:1606" ph="{...}" />
+            <marker date="1521215531687" expanded="true" signature="88:1604" ph="{...}" />
+            <marker date="1521215531687" expanded="true" signature="99:253" ph="/* We do want Unity to serialize our array but we don't want it shown in the inspector ... */" />
+            <marker date="1521215531687" expanded="true" signature="373:1597" ph="{...}" />
+            <marker date="1521215531687" expanded="true" signature="687:1406" ph="{...}" />
           </folding>
         </state>
       </provider>

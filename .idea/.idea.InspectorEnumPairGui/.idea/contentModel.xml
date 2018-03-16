@@ -3,9 +3,13 @@
   <component name="ContentModelStore">
     <e p="C:\Projects\Unity\InspectorEnumPairGui" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="FruitBasketEditor.cs" t="Include" />
+        </e>
         <e p="Example" t="Include">
           <e p="Fruit.cs" t="Include" />
           <e p="FruitBasket.cs" t="Include" />
@@ -16,10 +20,12 @@
             <e p="JetBrains" t="Include">
               <e p="Unity3DRider.cs" t="Include" />
             </e>
+            <e p="SkywardRay" t="Include">
+              <e p="InspectorEnumPairGui.cs" t="Include" />
+            </e>
           </e>
           <e p="SkywardRay" t="Include">
             <e p="InspectorEnumPair.cs" t="Include" />
-            <e p="InspectorEnumPairGui.cs" t="Include" />
           </e>
         </e>
       </e>

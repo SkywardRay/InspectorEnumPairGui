@@ -84,7 +84,7 @@ namespace SkywardRay {
         private void MoveMissingNamesToEnd () {
             // All the names in the enum declaration
             var enumNames = Enum.GetNames(typeof(TEnum));
-            
+
             // The current size of the serialized array
             var size = property.arraySize;
 
@@ -139,7 +139,7 @@ namespace SkywardRay {
 
             // Get all names in the enum declaration
             var namesInEnum = Enum.GetNames(typeof(TEnum)).ToList();
-            
+
             // Get all elements in the serialized property as a list
             var elements = Enumerable
                 .Range(0, property.arraySize)
@@ -227,10 +227,10 @@ namespace SkywardRay {
 
             // Get the default value for this enum value as an object so casting is a little easier
             object value = GetDefaultValue(GetKey(element));
-            
+
             // The property we want to assign the value to
             var elementValue = element.FindPropertyRelative("value");
-            
+
             // Assign the value to the serialized property based on the property type
             switch (elementValue.propertyType) {
             case SerializedPropertyType.AnimationCurve:
