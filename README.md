@@ -7,7 +7,7 @@ The serialization of arrays that are accessed using enums is a bit of an issue i
 
 The plugin consists of a class that stores the enum 'key' and a value. And a class that handles drawing of the custom inspector gui. As you can see in the video below the inspector will show a foldout with one entry for every name in the enum. When changing the enum declaration the inspector will be updated to show the new names and keep associations between existing names and values.
 
-<iframe src='https://gfycat.com/ifr/ImpressiveAllLarva' frameborder='0' scrolling='no' width='854' height='0' allowfullscreen></iframe>
+<img src="https://thumbs.gfycat.com/ImpressiveAllLarva-size_restricted.gif" width="854" height="480" />
 
 The example scene shown in the video is included in the project, please use the scripts in the example folder to see if this plugin is a fit for your project.
 
